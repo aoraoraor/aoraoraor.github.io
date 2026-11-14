@@ -1,7 +1,7 @@
 {
-  "about": "Our apps, shown in each app's «المزيد من تطبيقاتنا» sheet (never the app itself). Each app: id (Android application id), status (released: install button; soon: «قريبًا», no action), icon (a square PNG, about 144 px, in app-icons/ or a full https link), name, line (the short description) and tags. Tags are defined once under tags: text in each language and a colour (green, blue, orange, purple, gold). To add an app: upload its icon to app-icons/ and add an entry to apps. The apps show in this order. website: our website, shown as a card in each app's settings: url (the link; change it to move the apps to a new site), name (the studio's name, also its initials in the card's logo), line and button (the button's text).",
+  "about": "Our apps, shown in each app's «المزيد من تطبيقاتنا» sheet (never the app itself). Each app: id (Android application id), status (released: install button; soon: «قريبًا», no action), icon (a square PNG, about 144 px, in app-icons/ or a full https link), name, line (the short description) and tags. Tags are defined once under tags: text in each language and a colour (green, blue, orange, purple, gold). To add an app: upload its icon to app-icons/ and add an entry to apps. The apps show in this order. website: our website, shown as a card in each app's settings: url (the link; change it to move the apps to a new site), name (the studio's name, also its initials in the card's logo), line and button (the button's text). Hidden for now (owner, Nov 14, 2026): the entry is kept as website_hidden; rename it back to website to show the card again.",
   "format": 1,
-  "website": {
+  "website_hidden": {
     "url": "https://apps.orabicstudio.workers.dev/",
     "name": {
       "ar": "Orabic Studio",
