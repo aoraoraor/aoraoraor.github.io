@@ -1,15 +1,19 @@
 {
-  "about": "Our apps, shown in each app's «المزيد من تطبيقاتنا» sheet (never the app itself). Each app: id (Android application id), status (released: install button; soon: «قريبًا», no action), icon (a square PNG, about 144 px, in app-icons/ or a full https link), name, line (the short description) and tags. Tags are defined once under tags: text in each language and a colour (green, blue, orange, purple, gold). To add an app: upload its icon to app-icons/ and add an entry to apps. The apps show in this order. website: our website's link (url), with its label (name) and short line (line), shown in each app's settings; change the url to move the apps to a new site.",
+  "about": "Our apps, shown in each app's «المزيد من تطبيقاتنا» sheet (never the app itself). Each app: id (Android application id), status (released: install button; soon: «قريبًا», no action), icon (a square PNG, about 144 px, in app-icons/ or a full https link), name, line (the short description) and tags. Tags are defined once under tags: text in each language and a colour (green, blue, orange, purple, gold). To add an app: upload its icon to app-icons/ and add an entry to apps. The apps show in this order. website: our website, shown as a card in each app's settings: url (the link; change it to move the apps to a new site), name (the studio's name, also its initials in the card's logo), line and button (the button's text).",
   "format": 1,
   "website": {
     "url": "https://apps.orabicstudio.workers.dev/",
     "name": {
-      "ar": "موقعنا",
-      "en": "Our website"
+      "ar": "Orabic Studio",
+      "en": "Orabic Studio"
     },
     "line": {
       "ar": "تطبيقات تعليمية للعربية والقرآن",
       "en": "Learning apps for Arabic and the Quran"
+    },
+    "button": {
+      "ar": "زر موقعنا",
+      "en": "Visit our website"
     }
   },
   "tags": {
