@@ -1,0 +1,9 @@
+{
+  "about": "Release status of our apps, read by each app's «المزيد من تطبيقاتنا» list. released: on Google Play (the app shows its install button). soon: the app shows «قريبًا».",
+  "apps": {
+    "com.ora.nahw": "released",
+    "com.ora.qurankids": "released",
+    "com.ora.tajweed": "soon",
+    "com.ora.afl": "soon"
+  }
+}
