@@ -1,9 +1,42 @@
 {
-  "about": "Release status of our apps, read by each app's «المزيد من تطبيقاتنا» list. released: on Google Play (the app shows its install button). soon: the app shows «قريبًا».",
-  "apps": {
-    "com.ora.nahw": "released",
-    "com.ora.qurankids": "released",
-    "com.ora.tajweed": "soon",
-    "com.ora.afl": "soon"
-  }
+  "about": "Our apps, shown in each app's «المزيد من تطبيقاتنا» sheet (never the app itself). Each app: id (Android application id), status (released: install button; soon: «قريبًا», no action), icon (a square PNG, about 144 px, in app-icons/ or a full https link), name, line (the short description) and tags. Tags are defined once under tags: text in each language and a colour (green, blue, orange, purple, gold). To add an app: upload its icon to app-icons/ and add an entry to apps. The apps show in this order.",
+  "format": 1,
+  "tags": {
+    "free": {"ar": "مجاني بالكامل", "en": "Completely free", "color": "green"},
+    "no_ads": {"ar": "بلا إعلانات", "en": "No ads", "color": "blue"}
+  },
+  "apps": [
+    {
+      "id": "com.ora.qurankids",
+      "status": "released",
+      "icon": "app-icons/qurankids.png",
+      "name": {"ar": "قرآن كيدز", "en": "Quran Kids"},
+      "line": {"ar": "حفظ القرآن للأطفال", "en": "Quran memorisation for kids"},
+      "tags": ["free", "no_ads"]
+    },
+    {
+      "id": "com.ora.tajweed",
+      "status": "soon",
+      "icon": "app-icons/tajweed.png",
+      "name": {"ar": "التجويد في الجيب", "en": "Pocket Tajweed"},
+      "line": {"ar": "أحكام التجويد خطوة بخطوة", "en": "Tajweed rules step by step"},
+      "tags": ["free", "no_ads"]
+    },
+    {
+      "id": "com.ora.afl",
+      "status": "soon",
+      "icon": "app-icons/afl.png",
+      "name": {"ar": "العربية في الجيب", "en": "Pocket Arabic"},
+      "line": {"ar": "العربية لغير الناطقين بها", "en": "Arabic for non-native speakers"},
+      "tags": ["no_ads"]
+    },
+    {
+      "id": "com.ora.nahw",
+      "status": "released",
+      "icon": "app-icons/nahw.png",
+      "name": {"ar": "النحو في الجيب", "en": "Pocket Nahw"},
+      "line": {"ar": "النحو والصرف والإملاء", "en": "Arabic grammar and spelling"},
+      "tags": ["no_ads"]
+    }
+  ]
 }
