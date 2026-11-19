@@ -64,22 +64,6 @@
       ]
     },
     {
-      "id": "com.ora.afl",
-      "status": "soon",
-      "icon": "app-icons/afl.png",
-      "name": {
-        "ar": "العربية في الجيب",
-        "en": "Pocket Arabic"
-      },
-      "line": {
-        "ar": "العربية لغير الناطقين بها",
-        "en": "Arabic for non-native speakers"
-      },
-      "tags": [
-        "no_ads"
-      ]
-    },
-    {
       "id": "com.ora.nahw",
       "status": "soon",
       "icon": "app-icons/nahw.png",
